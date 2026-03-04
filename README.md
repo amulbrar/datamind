@@ -28,7 +28,7 @@ DataMind automates the entire data intelligence pipeline — from messy CSVs to 
 1. **Clone the repository:**
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/amulbrar/datamind.git
 cd datamind
 
 ```
@@ -37,7 +37,7 @@ cd datamind
 
 ```bash
 python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+source venv/bin/activate
 
 ```
 
@@ -52,11 +52,6 @@ pip install -r requirements.txt
 
 - Create a `.env` file in the root directory.
 - Add your OpenAI API key to enable AI story generation:
-
-```env
-OPENAI_API_KEY=your_api_key_here
-
-```
 
 - _Note: The application will warn you if the API key is missing but will still run the other pipeline steps._
 
