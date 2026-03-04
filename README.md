@@ -53,8 +53,6 @@ pip install -r requirements.txt
 - Create a `.env` file in the root directory.
 - Add your OpenAI API key to enable AI story generation:
 
-- _Note: The application will warn you if the API key is missing but will still run the other pipeline steps._
-
 5. **Run the Application:**
 
 ```bash
